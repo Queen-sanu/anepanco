@@ -60,8 +60,8 @@ const vF6 = p94 => {
           externalAdReply: {
             showAdAttribution: true,
             containsAutoReply: true,
-            title: "↯ 𝐂𝐢𝐜𝐢𝐓𝐳𝐲💞",
-            body: "↯ 𝐂𝐢𝐜𝐢𝐓𝐳𝐲💞",
+            title: "↯ 𝐇𝐀𝐒𝐇𝐔𝐙𝐙",
+            body: "↯ 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃",
             previewType: "PHOTO",
             thumbnailUrl: "https://img101.pixhost.to/images/75/546420042_verlangidzopedia.jpg",
             thumbnail: "https://img101.pixhost.to/images/75/546420042_verlangidzopedia.jpg",
