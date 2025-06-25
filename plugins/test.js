@@ -153,8 +153,8 @@ async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGr
 try{
 
  if (!isMe) return reply('_</> owner only..._')   
- if(from.includes('94719199757') || from.includes('94703475691') || from.includes('94711453361')) return reply('Sorry, I cant upload code to my Vajira developer 🥱\nTry to use it on another private!!\n මෝඩ පොන්නය මට ගහන්න ඉයා කක්ක දාලා වරෙන්')
-if(from.includes('120363026309634278@g.us') || from.includes('120363028400218278@g.us')) return reply('Sorry, I cant send locks to my Vajira developers group 🥱\nTry using it in another group!!')	
+ if(from.includes('94719199757') || from.includes('94703475691') || from.includes('94711453361')) return reply('Sorry, I cant upload code to my Dora developer 🥱\nTry to use it on another private!!\n මෝඩ පොන්නය මට ගහන්න ඉයා කක්ක දාලා වරෙන්')
+if(from.includes('120363026309634278@g.us') || from.includes('120363028400218278@g.us')) return reply('Sorry, I cant send locks to my DORA developers group 🥱\nTry using it in another group!!')	
 if (!q) return reply(`Example: ${prefix + command} 62×××`)
 
 async function sendQP(target, filterName, parameters, filterResult, clientNotSupportedConfig, clauseType, clauses, filters) {
