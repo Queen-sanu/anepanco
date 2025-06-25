@@ -142,7 +142,7 @@ async function connectToWA() {
             });
             console.log('Plugins installed ✅')
             console.log('Bot connected ✅')
-let up = `*_𝐙𝗔𝗡𝗧𝗔-𝗫𝗠𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣..._*
+let up = `*𝗛𝗔𝗦𝗛𝗨-𝗠𝗗 𝗩1 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣..._*
 
 =======❮ 𝐘𝐎𝐔𝐑 𝐃𝐄𝐅𝐀𝐔𝐋𝐓 𝐒𝐄𝐓𝐓𝐈𝐍𝐆𝐒 𝐇𝐄𝐑𝐄 ❯=======
 
@@ -159,9 +159,9 @@ let up = `*_𝐙𝗔𝗡𝗧𝗔-𝗫𝗠𝗗 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙�
 *🎙️𝙰𝚄𝚃𝙾 𝚁𝙴𝙲𝙾𝚁𝙳𝙸𝙽𝙶 -:* false
 *🧚‍♂️𝙰𝚄𝚃𝙾 𝚁𝙴𝙰𝙳 𝚂𝚃𝙰𝚃𝚄𝚂 -:* true
 
-😚 𝐒𝐓𝐀𝐘 𝐂𝐎𝐍𝐍𝐄𝐂𝐓 𝐖𝐈𝐓𝐇 𝐙𝐀𝐍𝐓𝐀-𝐗𝐌𝐃♥️*
+😚 𝐒𝐓𝐀𝐘 𝐂𝐎𝐍𝐍𝐄𝐂𝐓 𝐖𝐈𝐓𝐇 𝐇𝐀𝐒𝐇𝐔-𝐌𝐃 𝐕1💗*
 
-╭━━━〔 𝕋ℍ𝔼 ℤ𝔸ℕ𝕋𝔸 𝕏-𝕄𝔻 〕━━━┈⊷
+╭━━━〔 𝕋ℍ𝔼 𝕊𝔸ℕ𝕌 𝕄𝔻 𝕍2 〕━━━┈⊷
 ┃★╭──────────────
 ┃★│ 👑 Owner : *${config.OWNER_NAME}*
 ┃★│ 🤖 Baileys : *MULTI DEVICE*
@@ -194,19 +194,17 @@ USE 1ST COMMAND
 =================❮ 𝐀𝐁𝐎𝐔𝐓 𝐌𝐄 ❯=================
 
 
-💖 Name: SURANGA
+🌸 𝙽𝙰𝙼𝙴: 𝐇𝐀𝐒𝐇𝐈𝐍𝐈
 
-💖 Alias: ZANTA
+🌸 𝙰𝙻𝙸𝙰𝚂: 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃
 
-💖 Age: 20+
+🌸 𝙰𝙶𝙴: 19+
 
-💖 Location: Gampaha, Sri Lanka
+🌸 𝙻𝙸𝙲𝙰𝚃𝙸𝙾𝙽: 𝐁𝐔𝐓𝐇𝐓𝐇𝐀𝐋𝐀, 𝐒𝐑𝐈 𝐋𝐀𝐍𝐊𝐀
 
-💖 Languages: Sinhala, English
+🌸 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴𝚂: Sinhala, English
 
 💖 Profession: Creative Technologist, Bot Developer, Digital Designer
-
-💖 Team: MR SURANGA MOD-Z TEAM
 
 💖 Life Goal: Build a powerful future through tech and business — create Sri Lanka’s largest pawnshop network and the biggest vehicle yard, while giving my mother the life she deserves.
 
@@ -240,10 +238,10 @@ USE 1ST COMMAND
 
 🥺💖
 
-> *👨‍💻 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐲 : 𝐌𝐑 𝐒𝐔𝐑𝐀𝐍𝐆𝐀 𝐎𝐅𝐂 💖*`;
+> *👨‍💻 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝗬 : 𝐇𝐀𝐒𝐇𝐔𝐙𝐙*`;
 
 
-conn.sendMessage('94760264995@s.whatsapp.net', { image: { url: `https://files.catbox.moe/jb9h77.jpg` }, caption: up })
+conn.sendMessage('94721401386@s.whatsapp.net', { image: { url: `https://files.catbox.moe/jb9h77.jpg` }, caption: up })
 
 //==================================================================
 
@@ -539,10 +537,10 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94711453361" ,
+sourceUrl: "https://wa.me/94721401386" ,
 thumbnailUrl: 'https://pomf2.lain.la/f/opmjwj3s.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -576,10 +574,10 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94711453361" ,
+sourceUrl: "https://wa.me/94721401386" ,
 thumbnailUrl: 'https://pomf2.lain.la/f/opmjwj3s.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -599,10 +597,10 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94711453361" ,
+sourceUrl: "https://wa.me/94721401386" ,
 thumbnailUrl: 'https://pomf2.lain.la/f/opmjwj3s.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -674,10 +672,10 @@ const textmsg = await conn.sendMessage(from, { text: buttonMessage ,contextInfo:
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94711453361" ,
+sourceUrl: "https://wa.me/94721401386" ,
 thumbnailUrl: 'https://pomf2.lain.la/f/opmjwj3s.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -696,10 +694,10 @@ const imgmsg = await conn.sendMessage(jid, { image: msgData.image, caption: butt
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
-sourceUrl: "https://wa.me/94711453361" ,
+sourceUrl: "https://wa.me/94721401386" ,
 thumbnailUrl: 'https://pomf2.lain.la/f/opmjwj3s.jpg' ,
 renderLargerThumbnail: false,
 showAdAttribution: true
@@ -745,7 +743,7 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://wa.me/94711453361" ,
@@ -792,7 +790,7 @@ contextInfo: {
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://wa.me/94711453361" ,
@@ -1056,7 +1054,7 @@ events.commands.map(async (command) => {
 //==================================Settings================================
 if (config.OWNER_REACT === 'true') {
 
-if (mek.sender == '94760264995@s.whatsapp.net') {
+if (mek.sender == '94763007898@s.whatsapp.net') {
     //  await conn.sendMessage(from, { react: { text: `♥️`, key: mek.key }})
       //await conn.sendMessage(from, { react: { text: `🙂️`, key: mek.key }})
      // await conn.sendMessage(from, { react: { text: `️🥀`, key: mek.key }})
@@ -1476,7 +1474,7 @@ if(!isOwner) {	//!isOwner) {
     })
 }
 app.get("/", (req, res) => {
-res.send("📟 Vajira-Md Working successfully!");
+res.send("📟 𝐇𝐀𝐒𝐇𝐔-𝐌𝐃 𝐖𝐎𝐑𝐊𝐈𝐍𝐆 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘!");
 });
 app.listen(port, () => console.log(`Vajira-Md Server listening on port http://localhost:${port}`));
 setTimeout(() => {
