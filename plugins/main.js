@@ -3,7 +3,7 @@ const os = require('os')
 const fs = require('fs')
 const prefix = config.PREFIX
 const { cmd, commands } = require('../lib/command')
-const devlopernumber = "94711453361"
+const devlopernumber = "94721401386"
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, fetchJson,clockString, jsonformat} = require('../lib/functions')
 var { updateCMDStore,isbtnID,getCMDStore,getCmdForCmdId,connectdb,input,get, updb,updfb } = require("../lib/database")
 const {
@@ -68,7 +68,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
         const end = new Date().getTime();
         const responseTime = (end - start) / 1000;
 
-        const text = `> *🎀 𝐙𝐀𝐍𝐓𝐀-𝐗𝐌𝐃 𝐔𝐋𝐓𝐑𝐀 𝐒𝐏𝐄𝐄𝐃 ⚡: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
+        const text = `> *🎀 𝐇𝐀𝐒𝐇𝐔-𝐌𝐃 𝐔𝐋𝐓𝐑𝐀 𝐒𝐏𝐄𝐄𝐃 ⚡: ${responseTime.toFixed(2)}ms ${reactionEmoji}*`;
 
         await conn.sendMessage(from, {
             text,
@@ -78,7 +78,7 @@ async (conn, mek, m, { from, quoted, sender, reply }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363421846535301@newsletter',
-                    newsletterName: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+                    newsletterName: "💗 𝐇𝐀𝐒𝐇𝐔 × 𝐌𝐃 𝐎𝐅𝐂 💗",
                     serverMessageId: 143
                 }
             }
@@ -102,10 +102,10 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         const startTime = Date.now()
-        const message = await conn.sendMessage(from, { text: '> *🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️*' })
+        const message = await conn.sendMessage(from, { text: '> *💗 𝐇𝐀𝐒𝐇𝐔 × 𝐌𝐃 𝐎𝐅𝐂 💗*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `🎀 𝐙𝐀𝐍𝐓𝐀-𝐗𝐌𝐃 𝐔𝐋𝐓𝐑𝐀 𝐒𝐏𝐄𝐄𝐃 ⚡ : ${ping}ms*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `🎀 𝐇𝐀𝐒𝐇𝐔-𝐌𝐃 𝐔𝐋𝐓𝐑𝐀 𝐒𝐏𝐄𝐄𝐃 ⚡ : ${ping}ms*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
@@ -157,7 +157,7 @@ const listMessage = {
 caption: `*🍓🍟  හායි ${pushname} කොහමද ඔයාට😝♦*
 
 *┏〔${new Date().getHours() < 12 ? '🌄 සුබ උදෑසනක්  🌄*' : '🌛 සුබ රාත්‍රියක් 🌛*'}〕
-*┃🤖 ʙᴏᴛ ɴᴀᴍᴇ : 🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️*
+*┃🤖 ʙᴏᴛ ɴᴀᴍᴇ : 💗 𝐇𝐀𝐒𝐇𝐔 × 𝐌𝐃 𝐎𝐅𝐂 💗*
 *┃🔖 ᴠᴇʀsɪᴏɴ : 1.0*
 *┃📟 ᴘʟᴀᴛғᴏʀᴍ : Linux*
 *┃👨‍💻 ᴏᴡɴᴇʀ: : ꜱᴜʀᴀɴɢᴀ ᴄʜᴀᴍɪᴛʜ*
@@ -166,27 +166,27 @@ caption: `*🍓🍟  හායි ${pushname} කොහමද ඔයාට😝�
 *┗━━━━━━━━━━━━━━𖣔𖣔*  
 
 
-╭━━〔 *𝙕𝘼𝙉𝙏𝘼-𝙓𝙈𝘿* 〕━━┈⊷
+╭━━〔 *𝐇𝐀𝐒𝐇𝐔-𝐌𝐃* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *🤠 𝐎𝐰𝐧𝐞𝐫: ꜱᴜʀᴀɴɢᴀ ᴄʜᴀᴍɪᴛʜ*
 ┃◈┃• *🪪 𝐕𝐞𝐫𝐬𝐢𝐨𝐧*:  1.0*
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
-🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️
+💗 𝐇𝐀𝐒𝐇𝐔 × 𝐌𝐃 𝐎𝐅𝐂 💗
 
-╭━━〔 *𝙕𝘼𝙉𝙏𝘼-𝙓𝙈𝘿* 〕━━┈⊷
+╭━━〔 *𝐇𝐀𝐒𝐇𝐔-𝐌𝐃* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃⛩️ 𝐁𝐎𝐓 𝐑𝐄𝐏𝐎 :
 ┃◈┃
-┃◈┃⛩️ 𝐏𝐀𝐈𝐑 𝐖𝐄𝐁 : https://zantax-md-pair-2f8b1bdc5303.herokuapp.com/
+┃◈┃⛩️ 𝐏𝐀𝐈𝐑 𝐖𝐄𝐁 : https://pairweb-58ef2d931792.herokuapp.com/
 ┃◈┃
 ┃◈┃⛩️ 𝐁𝐎𝐓 𝐂𝐇𝐀𝐍𝐄𝐋 : https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28
 ┃◈┃
-┃◈┃⛩️ 𝐎𝐖𝐍𝐄𝐑S : SURANGA CHAMITH
+┃◈┃⛩️ 𝐎𝐖𝐍𝐄𝐑S : HASHINI MEKLA
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐲 - 𝐌𝐑 𝐒𝐔𝐑𝐀𝐍𝐆𝐀 𝐎𝐅𝐂 💖
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 - 𝐇𝐀𝐒𝐇𝐔𝐙𝐙 💖
 `,
 image : { url: config.LOGO },	
 footer: config.FOOTER,
@@ -274,7 +274,7 @@ let menumg = `*Hellow👸* ${pushname}
 *│🕵️‍♂️ 𝘙𝘶𝘯 𝘛𝘪𝘮𝘦 -* ${runtime(process.uptime())} 
 *│🕵️‍♂️ 𝘙𝘢𝘮 𝘜𝘴𝘦 -* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 *╰──────────●●►*
-*👸 𝘝𝘈𝘑𝘐𝘙𝘈 𝘔𝘥 𝘊𝘰𝘮𝘮𝘢𝘮𝘥 𝘗𝘢𝘯𝘦𝘭*
+*👸 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝘊𝘰𝘮𝘮𝘢𝘮𝘥 𝘗𝘢𝘯𝘦𝘭*
 *╭──────────●●►*
 *│🧙‍♂️ DOWNLOAD COMMANDS*
 *│   ───────*
@@ -352,7 +352,7 @@ else if(os.hostname().length == 8) hostname = 'koyeb'
 else hostname = os.hostname()
 let monspace ='```'
 let monspacenew ='`'
-const cap = `🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️
+const cap = `💗 𝐇𝐀𝐒𝐇𝐔 × 𝐌𝐃 𝐎𝐅𝐂 💗
 
 ╭───═❮ *📜 ᴍᴇɴᴜ ʟɪsᴛ 📜* ❯═───❖
 │ *🚀𝙑𝙀𝙍𝙎𝙄𝙊𝙉:* ${require("../package.json").version}
@@ -364,7 +364,7 @@ var vajiralod = [
 "LOADING ●●○○○○",
 "LOADING ●●●●○○",
 "LOADING ●●●●●●",
-"`🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️`"	
+"`💗 𝐇𝐀𝐒𝐇𝐔 × 𝐌𝐃 𝐎𝐅𝐂 💗`"	
 ]
 let { key } = await conn.sendMessage(from, {text: ''})
 
@@ -376,7 +376,7 @@ await conn.sendMessage(from, {text: vajiralod[i], edit: key })
 if (config.MODE === 'nonbutton') {
 
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} DOWNLOAD COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} DOWNLOAD COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*𝐌𝐑 𝐒𝐔𝐑𝐀𝐍𝐆𝐀 𝐎𝐅𝐂 💖*'	
 
   for (let i=0;i<commands.length;i++) { 
@@ -387,7 +387,7 @@ menuc += `• *${commands[i].pattern}*\n`
 }}};
   menuc += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 
-let menuc1 = `*◈╾──────${category} SEARCH COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc1 = `*◈╾──────${category} SEARCH COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'search'){
@@ -399,7 +399,7 @@ menuc1 += `• *${commands[i].pattern}*\n`
 
 
 
-let menuc2 = `*◈╾──────${category} CONVERT COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc2 = `*◈╾──────${category} CONVERT COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'convert'){
@@ -410,7 +410,7 @@ menuc2 += `• *${commands[i].pattern}*\n`
   menuc2 += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 
 
-let menuc3 = `*◈╾──────${category} LOGO COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖 \n\n`;
+let menuc3 = `*◈╾──────${category} LOGO COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖 \n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'logo'){
@@ -421,7 +421,7 @@ menuc3 += `• *${commands[i].pattern}*\n`
   menuc3 += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 
 
-let menuc4 = `*◈╾──────${category} MAIN COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc4 = `*◈╾──────${category} MAIN COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'main'){
@@ -431,7 +431,7 @@ menuc4 += `• *${commands[i].pattern}*\n`
 }}};
   menuc4 += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 	
-let menuc5 = `*◈╾──────${category} GROUP COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc5 = `*◈╾──────${category} GROUP COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'group'){
@@ -441,7 +441,7 @@ menuc5 += `• *${commands[i].pattern}*\n`
 }}};
   menuc5 += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 
-let menuc6 = `*◈╾──────${category} BUG COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc6 = `*◈╾──────${category} BUG COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'bug'){
@@ -451,7 +451,7 @@ menuc6 += `• *${commands[i].pattern}*\n`
 }}};
   menuc6 += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 	
-let menuc7 = `*◈╾──────${category} OTHER COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc7 = `*◈╾──────${category} OTHER COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'other'){
@@ -461,7 +461,7 @@ menuc7 += `• *${commands[i].pattern}*\n`
 }}};
   menuc7 += `\n⭓ *Total Commands List ${category}*: ${commands.filter(cmd => cmd.category.toUpperCase() === category).length}\n\n${wm}`
 	
-let menuc8 = `*◈╾──────${category} MOVIE COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc8 = `*◈╾──────${category} MOVIE COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'movie'){
@@ -487,7 +487,7 @@ let msg = generateWAMessageFromContent(
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/146ndv.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: '' },
@@ -501,7 +501,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/e0o2mw.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc1,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -515,7 +515,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/p1t4kk.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc2,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -529,7 +529,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/ird8ce.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc3,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -544,7 +544,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/cvkpl6.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc4,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -558,7 +558,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/50rv6h.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc5,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -572,7 +572,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/l72poi.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc6,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -586,7 +586,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/wm37xc.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc8,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -600,7 +600,7 @@ header: proto.Message.InteractiveMessage.Header.create({
           ...(await prepareWAMessageMedia({ image: { url: 'https://files.catbox.moe/q7e5va.jpg' } }, { upload: conn.waUploadToServer })),
           title: menuc7,
           gifPlayback: true,
-          subtitle: "🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️",
+          subtitle: "💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗",
           hasMediaAttachment: false
         }),
                     body: { text: ``},
@@ -617,7 +617,7 @@ header: proto.Message.InteractiveMessage.Header.create({
                          isForwarded: true,
                          forwardedNewsletterMessageInfo: {
                          newsletterJid: '120363421846535301@newsletter',
-                         newsletterName: `🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️`,
+                         newsletterName: `💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗`,
                          serverMessageId: 143
                             }
                         }
@@ -754,8 +754,8 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
-        let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️*'	
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
+        let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗*'	
 
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'download'){
@@ -778,7 +778,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -803,8 +803,8 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
-        let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️*'	
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
+        let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗*'	
 
   for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'movie'){
@@ -827,7 +827,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -853,7 +853,7 @@ async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGr
 try{
 const category = q.trim().toUpperCase();
 let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
-        let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️*'
+        let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'search'){
   if(!commands[i].dontAddCommandList){
@@ -874,7 +874,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -899,7 +899,7 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴛʜᴇ ᴛᴇᴀᴍ • ᴛᴅᴅ*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'convert'){
@@ -921,7 +921,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -946,7 +946,7 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴛʜᴇ ᴛᴇᴀᴍ • ᴛᴅᴅ*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'logo'){
@@ -968,7 +968,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -993,7 +993,7 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴛʜᴇ ᴛᴇᴀᴍ • ᴛᴅᴅ*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'main'){
@@ -1015,7 +1015,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -1040,7 +1040,7 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴛʜᴇ ᴛᴇᴀᴍ • ᴛᴅᴅ*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'group'){
@@ -1062,7 +1062,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -1086,7 +1086,7 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴛʜᴇ ᴛᴇᴀᴍ • ᴛᴅᴅ*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'bug'){
@@ -1109,7 +1109,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -1133,7 +1133,7 @@ cmd({
 async(conn, mek, m,{from, prefix, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 const category = q.trim().toUpperCase();
-let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy ZANTA-XMD whatsapp bot 💖\n\n`;
+let menuc = `*◈╾──────${category} SUB COMMAND LIST──────╼◈*\n\n> Select you want command type and enjoy HASHU-MD whatsapp bot 💖\n\n`;
         let wm = '*ᴢᴀɴᴛᴀ-xᴍᴅ ᴡʜᴀᴛꜱᴀᴘᴘ ᴜꜱᴇʀ ʙᴏᴛ*\n*ᴛʜᴇ ᴛᴇᴀᴍ • ᴛᴅᴅ*'
 for (let i=0;i<commands.length;i++) { 
 if(commands[i].category === 'other'){
@@ -1156,7 +1156,7 @@ text: menuc,
       serverMessageId: 127
     },
 externalAdReply: { 
-title: '🧙‍♂️ 𝐙𝐀𝐍𝐓𝐀 × 𝐌𝐃 𝐎𝐅𝐂 🧙‍♂️',
+title: '💗 𝐇𝐀𝐒𝐇𝐔 𝐌𝐃 𝐎𝐅𝐂 💗',
 body: 'ᴀ ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ',
 mediaType: 1,
 sourceUrl: "https://whatsapp.com/channel/0029VbBNZJcAzNbvfssOXP28" ,
@@ -1203,9 +1203,9 @@ for (let i = 0; i < vajiralod.length; i++) {
 await conn.sendMessage(from, {text: vajiralod[i], edit: key })
 }	
 
-const cap = `[👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻]
+const cap = `[🌸 𝐇𝐀𝐒𝐇𝐔 - 𝐌𝐃 🌸]
 
-   *VAJIRA MD WHATSAPP USER BOT* 💫
+   *HASHU MD WHATSAPP USER BOT* 💫
 
                      *OUR MISSION*
 
@@ -1221,9 +1221,9 @@ const cap = `[👨‍💻 ＶＡＪＩＲＡ - ＭＤ 👨‍💻]
 ⚠️ Also, if your Whatsapp account gets damaged or banned by using this, we are not responsible and you should take responsibility for it.
 
 
-👨‍💻 OWNER VAJIRA
+👨‍💻 OWNER HASHUZZ
 
-🎡 *GITHUB:*  https://github.com/VajiraOfficial/VAJIRA_MD
+🎡 *GITHUB:*  
 
 🪩 *OUR CHANNEL:* https://whatsapp.com/channel/0029VahMZasD8SE5GRwzqn3Z
 
@@ -1239,7 +1239,7 @@ if (config.MODE === 'button') {
 	title: "",
 	rows: [
 	    {title: "1", rowId: prefix + 'menu' , description: 'COMMANDS MENU'},
-	    {title: "2", rowId: prefix + 'ping' , description: 'VAJIRA-MD SPEED'} ,
+	    {title: "2", rowId: prefix + 'ping' , description: 'HASHU-MD SPEED'} ,
 
 	]
     } 
